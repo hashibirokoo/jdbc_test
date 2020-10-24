@@ -19,7 +19,7 @@ public class SqlUtil {
 
 		for (int i = 0; i < ilength; i++) {
 			if (!"".equals(sb.toString())) {
-				sb.append(", ");
+				sb.append(DELIMETER_COMMA);
 			}
 
 			sb.append("?");
