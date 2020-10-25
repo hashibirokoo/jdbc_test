@@ -92,7 +92,7 @@ public class SqlUtil {
 					pre.setDate(++iCnt, dayArray[j]);
 				}
 			}
-			// List]
+			// List
 			else if (obj instanceof List) {
 				int step = setPreparedInput2(pre, (List<?>) obj, iCnt + 1);
 				iCnt = iCnt + step;
